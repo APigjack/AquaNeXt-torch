@@ -140,10 +140,10 @@ def main():
     image_path = r'D:\Paper_code_pt\new\JM_regular\img.tif'
     label_path = r'D:\Paper_code_pt\new\JM_regular\lbl.tif'
     # model_file = r'D:\Paper_code_pt\new\JM_regular\AquaNeXt\AquaNeXt_NM_gd_regular\best_val_model_epoch_150.pt'
-    model_file = r'D:\Paper_code_pt\new\JM_regular\AquaNeXt\AquaNeXt_NM_gd_regular\best_val_model_epoch_145.pt'
-    output_folder = r'D:\Paper_code_pt\new\JM_regular\AquaNeXt\256_0.266'
+    model_file = r'D:\Paper_code_pt\new\JM_regular\AquaNeXt\AquaNeXt_NM_gd_regular\best_val_model_epoch_150.pt'
+    output_folder = r'D:\Paper_code_pt\new\JM_regular\AquaNeXt\out'
     tile_size = 256
-    overlap = 0.266
+    overlap = 0.2
     model_type = 'AquaNeXt'
     predict_edge = False
     predict_dist = False
